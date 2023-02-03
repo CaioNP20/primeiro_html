@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+/* Header */
+
+header {
+    background-color: red;
+    padding: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: center;
+    color: #eee;
+    margin-bottom: 10px;
+}
+
+/* Body */
+body {
+    background-color: #eee;
+}
+
+main {
+    padding: 50px;
+    border: solid red 5px;
+}
+
+section {
+    margin-left: 10%;
+}
+
+/* Cartas */
+
+#cards-presentes {
+    font-size: 20px;
+}
+
+.card {
+    margin-top: 3px;
+    display: inline-table;
+    width: 20%;
+    margin: 1%;
+    padding: 15px;
+    border: solid red 5px;
+    min-height: 518px;
+}
+
+.card-name {
+    text-decoration: none;
+    padding-left: 10%;
+}
+
+.card-name:hover {
+    text-decoration:underline ;
+}
+
+.card-obj {
+    text-align: justify;
+    
+}
+
+.deck-obj {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Imagens */
+
+.card-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url('../imagens/nova.webp');
+}
+  
+#img-2 {
+    background-image: url('../imagens/angela.webp');
+}
+
+#img-3 {
+    background-image: url('../imagens/mojo.webp');
+}
+
+#img-4 {
+    background-image: url('../imagens/armor.webp');
+}
+  
+#img-5 {
+    background-image: url('../imagens/scarlet-witch.webp');
+}
+
+#img-6 {
+    background-image: url('../imagens/sentinel.webp');
+}
+
+#img-7 {
+    background-image: url('../imagens/lizard.webp');
+}
+  
+#img-8 {
+    background-image: url('../imagens/bishop.webp');
+}
+
+#img-9 {
+    background-image: url('../imagens/killmonger.webp');
+}
+
+#img-10 {
+    background-image: url('../imagens/shang-chi.webp');
+}
+  
+#img-11 {
+    background-image: url('../imagens/enchantress.webp');
+}
+
+#img-12 {
+    background-image: url('../imagens/sera.webp');
+}
+
+/* Footer */
+.bold {
+    font-style: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: red;
+    color: #eee;
+    margin-top: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
